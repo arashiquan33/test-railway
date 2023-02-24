@@ -5,4 +5,4 @@ const server = http.createServer((req,res)=>{
    res.end();
 })
 
-server.listen(80);
+server.listen(process.env.PORT);
